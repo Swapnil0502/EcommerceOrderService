@@ -12,6 +12,7 @@ public class OrderItemMapper {
                 .order(order)
                 .price(price)
                 .totalPrice(totalPrice)
+                .quantity(dto.getQuantity())
                 .productId(dto.getProductId())
                 .build();
     }
