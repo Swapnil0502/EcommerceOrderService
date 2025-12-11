@@ -28,7 +28,7 @@ public class OrderServiceImpl implements IOrderService {
     }
 
     @Override
-    public OrderResponseDto createProduct(OrderRequestDto req) {
+    public OrderResponseDto createOrder(OrderRequestDto req) {
 
         Order order = OrderMapper.toEntity(req);
 

@@ -21,8 +21,8 @@ public class OrderController {
     }
 
     @PostMapping
-    public ResponseEntity<OrderResponseDto> createProduct(@RequestBody OrderRequestDto req){
-        OrderResponseDto data = orderService.createProduct(req);
+    public ResponseEntity<OrderResponseDto> createOrder(@RequestBody OrderRequestDto req){
+        OrderResponseDto data = orderService.createOrder(req);
         return ResponseEntity.ok(data);
     }
 }

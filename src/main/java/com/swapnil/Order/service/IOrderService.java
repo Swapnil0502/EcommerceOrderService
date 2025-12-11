@@ -5,5 +5,5 @@ import com.swapnil.Order.dto.OrderResponseDto;
 
 public interface IOrderService {
 
-    OrderResponseDto createProduct(OrderRequestDto req);
+    OrderResponseDto createOrder(OrderRequestDto req);
 }
